@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMServices - TicTacToe</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/icon/favicon.png">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/tictactoe_style.css">
+    </head>
+
+    <body>
+        <div class="main_page"> <a class="main_page_a" href="./">На главную</a> </div>
+
+        <div class="container">
+            <header>
+                <div class="header_menu">
+                    <div class="header_logo">
+                        <h1> <a class="logo" href="./">AMServices</a> </h1>
+                    </div>
+    
+                    <div class="header_nav">
+                        <nav>
+                            <a class="nav" href="services.html">Services</a>
+                            <a class="nav" href="game.html">Game</a>
+                            <a class="nav" href="about.html">About</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <div class="site_map">
+                <a class="site_map_a" href="./">Главная</a> <i class="site_map_a">&#8594</i>
+                <a class="site_map_a" href="game.html"> Игры</a> <i class="site_map_a">&#8594</i>
+                <a class="site_map_a" href="tictactoe.html"> Крестики-нолики</a>
+            </div>
+
+            <div class="body_all">
+
+                <div class="player_name">
+                    <p>Имя 1-го игрока:</p>
+                    <input type="text" id="playerName1" value="Игрок 1">
+                    <p>Имя 2-го игрока:</p>
+                    <input type="text" id="playerName2" value="Игрок 2">
+
+                    <input type="button" value="Поменять имена местами" onclick="NameValue()">
+                </div>
+
+                <div class="game_set">
+                    <input type="text" id="gameStat" value="Игра не начата" readonly>
+                    <input type="button" value="Старт" id="startGame" onclick="StartGame()">
+                    <input type="button" value="Сброс" id="stopGame" onclick="StopGame()">
+                </div>
+
+                <div class="game_cont">
+                    <div class="game">
+                        <input id="img1" type="image" src="img/tictactoe/1.png" onclick="GameProcess(1)">
+                        <input id="img2" type="image" src="img/tictactoe/1.png" onclick="GameProcess(2)">
+                        <input id="img3" type="image" src="img/tictactoe/1.png" onclick="GameProcess(3)"><br>
+                        <input id="img4" type="image" src="img/tictactoe/1.png" onclick="GameProcess(4)">
+                        <input id="img5" type="image" src="img/tictactoe/1.png" onclick="GameProcess(5)">
+                        <input id="img6" type="image" src="img/tictactoe/1.png" onclick="GameProcess(6)"><br>
+                        <input id="img7" type="image" src="img/tictactoe/1.png" onclick="GameProcess(7)">
+                        <input id="img8" type="image" src="img/tictactoe/1.png" onclick="GameProcess(8)">
+                        <input id="img9" type="image" src="img/tictactoe/1.png" onclick="GameProcess(9)"><br>
+                    </div>
+                </div>
+
+                <footer>
+                    <p>
+                        <a class="footer_nav" href="./">Home</a>
+                        <a class="footer_nav" href="services.html">Services</a>
+                        <a class="footer_nav" href="game.html">Game</a>
+                        <a class="footer_nav" href="about.html">About</a>
+                    </p>
+        
+                    <p>&#169 2022 Alexander Mulyar</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+
+    <script src="js/tictactoe.js"></script>
+</html>

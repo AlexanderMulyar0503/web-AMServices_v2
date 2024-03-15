@@ -1,0 +1,33 @@
+.update_ancd
+{
+    width: 100%;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+form input[type="text"]
+{
+    width: 30px;
+}
+
+body
+{
+    margin-top: 25px;
+}
+
+.ancd p
+{
+    margin: 0 auto;
+    width: 680px;
+    font-size: 20px;
+    text-align: center;
+}
+
+@media screen and (max-width: 680px)
+{
+    .ancd p
+    {
+        width: 95%;
+    }
+}

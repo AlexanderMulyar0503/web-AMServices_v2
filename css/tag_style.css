@@ -1,0 +1,44 @@
+body
+{
+    margin-top: 25px;
+}
+
+.body_all input
+{
+    font-size: 18px;
+}
+
+.game
+{
+    width: 365px;
+    margin: 0 auto;
+    border-style: outset;
+    border-width: 11px;
+}
+
+.game input
+{
+    font-size: 18px;
+    width: 85px;
+    height: 85px;
+}
+
+.game_set input
+{
+    width: 98%;
+    margin-bottom: 10px;
+}
+
+@media screen and (max-width: 680px)
+{
+    .game
+    {
+        width: 60%;
+    }
+
+    .game input
+    {
+        width: 13vw;
+        height: 13vw;
+    }
+}

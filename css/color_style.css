@@ -1,0 +1,28 @@
+body
+{
+    margin-top: 25px;
+}
+
+.body_all, .numberIn, .textBox
+{
+    font-size: 18px;
+}
+
+.rangeIn
+{
+    width: 75%;
+}
+
+.numberIn
+{
+    width: 50px;
+}
+
+textarea
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 99%;
+    height: 75px;
+    background: rgb(0, 0, 0);
+}

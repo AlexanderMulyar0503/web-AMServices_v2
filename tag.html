@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>AMServices - Tag</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="icon" href="img/icon/favicon.png">
+        <link rel="stylesheet" href="css/default.css">
+        <link rel="stylesheet" href="css/tag_style.css">
+    </head>
+
+    <body>
+        <div class="main_page"> <a class="main_page_a" href="./">На главную</a> </div>
+
+        <div class="container">
+            <header>
+                <div class="header_menu">
+                    <div class="header_logo">
+                        <h1> <a class="logo" href="./">AMServices</a> </h1>
+                    </div>
+    
+                    <div class="header_nav">
+                        <nav>
+                            <a class="nav" href="services.html">Services</a>
+                            <a class="nav" href="game.html">Game</a>
+                            <a class="nav" href="about.html">About</a>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+
+            <div class="site_map">
+                <a class="site_map_a" href="./">Главная</a> <i class="site_map_a">&#8594</i>
+                <a class="site_map_a" href="game.html"> Игры</a> <i class="site_map_a">&#8594</i>
+                <a class="site_map_a" href="tag.html"> Игра в 15</a>
+            </div>
+
+            <div class="body_all">
+                    <div class="game_set">
+                    <input type="button" value="Старт" onclick="StartGame()">
+                    <input type="button" value="Сброс" onclick="StopGame()">
+                    <input type="text" id="gameStat" value="Игра не начата">
+                </div>
+
+                <div class="game_cont">
+                    <div class="game">
+                        <input id="gameBtn1" name="gameBtn1" type="button" value="1" onclick="Game(1)">
+                        <input id="gameBtn2" name="gameBtn2" type="button" value="2" onclick="Game(2)">
+                        <input id="gameBtn3" name="gameBtn3" type="button" value="3" onclick="Game(3)">
+                        <input id="gameBtn4" name="gameBtn4" type="button" value="4" onclick="Game(4)"><br>
+                        <input id="gameBtn5" name="gameBtn5" type="button" value="5" onclick="Game(5)">
+                        <input id="gameBtn6" name="gameBtn6" type="button" value="6" onclick="Game(6)">
+                        <input id="gameBtn7" name="gameBtn7" type="button" value="7" onclick="Game(7)">
+                        <input id="gameBtn8" name="gameBtn8" type="button" value="8" onclick="Game(8)"><br>
+                        <input id="gameBtn9" name="gameBtn9" type="button" value="9" onclick="Game(9)">
+                        <input id="gameBtn10" name="gameBtn10" type="button" value="10" onclick="Game(10)">
+                        <input id="gameBtn11" name="gameBtn11" type="button" value="11" onclick="Game(11)">
+                        <input id="gameBtn12" name="gameBtn12" type="button" value="12" onclick="Game(12)"><br>
+                        <input id="gameBtn13" name="gameBtn13" type="button" value="13" onclick="Game(13)">
+                        <input id="gameBtn14" name="gameBtn14" type="button" value="14" onclick="Game(14)">
+                        <input id="gameBtn15" name="gameBtn15" type="button" value="15" onclick="Game(15)">
+                        <input id="gameBtn16" name="gameBtn16" type="button" value="   " onclick="Game(16)"><br>
+                    </div>
+                </div>
+
+                <footer>
+                    <p>
+                        <a class="footer_nav" href="./">Home</a>
+                        <a class="footer_nav" href="services.html">Services</a>
+                        <a class="footer_nav" href="game.html">Game</a>
+                        <a class="footer_nav" href="about.html">About</a>
+                    </p>
+        
+                    <p>&#169 2022 Alexander Mulyar</p>
+                </footer>
+            </div>
+        </div>
+    </body>
+
+    <script src="js/tag.js"></script>
+
+</html>

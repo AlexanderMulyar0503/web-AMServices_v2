@@ -1,0 +1,29 @@
+body
+{
+    margin-top: 25px;
+}
+
+.about_img
+{
+    width: 25%;
+    transition: width 0.5s;
+}
+
+.about_img:hover
+{
+    width: 65%;
+}
+
+@media screen and (max-width: 680px)
+{
+    .about_img
+    {
+        width: 25%;
+        transition: width 0.5s;
+    }
+
+    .about_img:hover
+    {
+        width: 90%;
+    }
+}

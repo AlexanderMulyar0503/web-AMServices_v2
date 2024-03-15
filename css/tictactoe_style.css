@@ -1,0 +1,60 @@
+body
+{
+    margin-top: 25px;
+}
+
+.game
+{
+    border-style: outset;
+    border-width: 11px;
+    margin: 0 auto;
+    max-width: 415px;
+}
+
+.game input
+{
+    width: 132px;
+    height: 132px;
+}
+
+.player_name input
+{
+    width: 98%;
+    font-size: 18px;
+}
+
+.player_name input[type="button"]
+{
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.game_set input
+{
+    width: 98%;
+    font-size: 18px;
+}
+
+.game_set input
+{
+    margin-bottom: 10px;
+}
+
+.game_cont
+{
+    margin-top: 15px;
+}
+
+@media screen and (max-width: 680px)
+{
+    .game
+    {
+        width: 64%;
+    }
+
+    .game input
+    {
+        width: 19vw;
+        height: 19vw;
+    }
+}

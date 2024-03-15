@@ -1,0 +1,25 @@
+body
+{
+    margin-top: 25px;
+}
+
+.body_all
+{
+    font-size: 18px;
+}
+
+.textBox
+{
+    width: 98%;
+    margin-top: 7px;
+    margin-bottom: 7px;
+    font-size: 18px;
+}
+
+.button1
+{
+    width: 99%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-size: 18px;
+}

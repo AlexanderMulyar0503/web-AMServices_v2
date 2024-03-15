@@ -1,0 +1,53 @@
+body
+{
+    margin-top: 25px;
+}
+
+.select_kolvo
+{
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.select_smb
+{
+    margin-top: 15px;
+    border-radius: 5px;
+    border-style: groove;
+}
+
+.body_all
+{
+    font-size: 18px;
+}
+
+.textBox
+{
+    font-size: 18px;
+    margin: 5px;
+}
+
+.btn
+{
+    font-size: 18px;
+    margin: 5px;
+    width: 99%;
+}
+
+input[id="textBox2"]
+{
+    width: 97%;
+}
+
+.btn_vle
+{
+    width: 25px;
+    font-size: 18px;
+}
+
+.btn_selvle
+{
+    width: 35px;
+    font-size: 18px;
+    margin: 7px;
+}

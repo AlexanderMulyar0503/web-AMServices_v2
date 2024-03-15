@@ -1,0 +1,48 @@
+.body_all
+{
+    font-size: 18px;
+}
+
+.body_blocks
+{
+    font-size: 21px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.block_services, .block_game
+{
+    border-style: inset;
+    border-width: 3px;
+    width: 40%;
+
+    border-color: #000080;
+    border-width: 5px;
+}
+
+.block_desktop
+{
+    margin: 25px auto;
+    border-style: inset;
+    border-width: 3px;
+    width: 50%;
+
+    border-color: #000080;
+    border-width: 3px;
+
+    text-align: center;
+}
+
+@media screen and (max-width: 680px)
+{
+    .body_blocks
+    {
+        display: block;
+    }
+
+    .block_services, .block_game
+    {
+        width: 98%;
+        margin-top: 10px;
+    }
+}
